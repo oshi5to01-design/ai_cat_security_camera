@@ -1,0 +1,17 @@
+# Pythonのゴミ
+__pycache__/
+*.pyc
+
+# 撮影した写真フォルダ
+captures/
+
+# AIモデルファイル（自動DLされるから不要）
+*.pt
+
+# 仮想環境
+venv/
+env/
+
+# OSのゴミ
+.DS_Store
+Thumbs.db
