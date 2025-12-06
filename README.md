@@ -25,6 +25,8 @@ Webカメラ（iPhone + Iriun Webcam）の映像をリアルタイムで解析�
 # 🚀 実行方法
 
 # 1. 準備
+スマホとPCにIriun Webcamをインストールし立ち上げる。
+２つのデバイスを同じWi-Fiに接続する。
 ライブラリのインストール
 pip install -r requirements.txt
 ※ requirements.txt には ultralytics, opencv-python, pygame, requests, python-dotenv が含まれます。
