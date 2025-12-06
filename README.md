@@ -25,24 +25,23 @@ Webカメラ（iPhone + Iriun Webcam）の映像をリアルタイムで解析�
 # 🚀 実行方法
 
 # 1. 準備
- ライブラリのインストール
- ```bash
- pip install -r requirements.txt
- ※ requirements.txt には ultralytics, opencv-python, pygame, requests, python-dotenv が含まれます。
+ライブラリのインストール
+pip install -r requirements.txt
+※ requirements.txt には ultralytics, opencv-python, pygame, requests, python-dotenv が含まれます。
 
 # 2. 環境変数の設定
- プロジェクト直下に .env ファイルを作成し、DiscordのWebhook URLを設定します。
+プロジェクト直下に .env ファイルを作成し、DiscordのWebhook URLを設定します。
 （通知機能を使わない場合は不要です）
- DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your_webhook_url...
+DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your_webhook_url...
 
 # 3. カメラ設定
- PCにカメラが複数ある場合、以下のツールで番号を確認してください。
- python check_cameras.py
- 確認した番号を cat_security.py の CAMERA_INDEX に設定します。
+PCにカメラが複数ある場合、以下のツールで番号を確認してください。
+python check_cameras.py
+確認した番号を cat_security.py の CAMERA_INDEX に設定します。
 
 # 4. 起動
- python cat_security.py
+python cat_security.py
 
 🧪 テストの実行
- カメラがない環境でも、以下のコマンドでAIの動作チェックが可能です。
- pytest
+カメラがない環境でも、以下のコマンドでAIの動作チェックが可能です。
+pytest
