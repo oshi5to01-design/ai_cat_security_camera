@@ -15,3 +15,5 @@ env/
 # OSのゴミ
 .DS_Store
 Thumbs.db
+
+.env
